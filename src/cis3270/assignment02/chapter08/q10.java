@@ -1,4 +1,7 @@
 package cis3270.assignment02.chapter08;
+//(Largest row and column) Write a program that randomly fills in 0s and 1s into
+//a 4-by-4 matrix, prints the matrix, and finds the first row and column with the
+//most 1s.
 
 public class q10 {
     public static void main(String[] args) {
