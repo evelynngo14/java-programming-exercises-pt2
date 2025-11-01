@@ -3,6 +3,7 @@ package cis3270.assignment02.chapter08;
 // test inputs:
 // matrix1: 1 2 3 4 5 6 7 8 9
 // matrix2: 0 2 4 1 4.5 2.2 1.1 4.3 5.2
+
 import java.util.Scanner;
 public class q05 {
 
