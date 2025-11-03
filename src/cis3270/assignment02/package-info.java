@@ -1,4 +1,4 @@
-package cis3270.assgnment02;
+package cis3270.assignment02;
 /*
 Chapter08: 1,4,5,6,10,21,28,37
 Chapter09: 1,7,9,11
