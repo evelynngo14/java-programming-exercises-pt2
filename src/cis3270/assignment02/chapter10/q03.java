@@ -1,7 +1,7 @@
 package cis3270.assignment02.chapter10;
 
 public class q03 {
-    class MyInteger{
+    static class MyInteger{
         int value;
 
         public MyInteger(int value) {
@@ -27,7 +27,7 @@ public class q03 {
         }
 
         public static boolean isEven(MyInteger obj) {
-            return isEven(obj)
+            return isEven(obj);
         }
 
         public static boolean isOdd(MyInteger obj) {
@@ -35,15 +35,9 @@ public class q03 {
         }
 
         public static boolean isPrime(MyInteger obj) {
-            return isEven(obj);
+            return isPrime(obj);
         }
 
 
-    }
-
-    public static void main(String[] args) {
-        MyInteger num = new MyInteger(7);
-        System.out.println(num.isPrime()); // true
-        System.out.println(MyInteger.isEven(num)); // false
     }
 }

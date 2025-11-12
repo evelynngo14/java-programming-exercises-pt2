@@ -9,7 +9,6 @@ public class q09 {
     public static void main(String[] args) {
         RegularPolygon r1 = new RegularPolygon(6, 4);
         RegularPolygon r2 = new RegularPolygon(10, 4, 5.6, 7.8);
-        System.out.print
     }
     static class RegularPolygon {
         private int n = 3;

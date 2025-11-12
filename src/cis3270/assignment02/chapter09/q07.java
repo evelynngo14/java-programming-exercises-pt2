@@ -13,7 +13,7 @@ public class q07 {
 
     }
 
-    static class Account {
+    public static class Account {
         private int id = 0;
         private double balance = 0;
         private double annualInterestRate = 0;
@@ -22,7 +22,7 @@ public class q07 {
         Account() {
         }
 
-        Account(int newID, double initialBalance) {
+        public Account(int newID, double initialBalance) {
             id = newID;
             balance = initialBalance;
         }

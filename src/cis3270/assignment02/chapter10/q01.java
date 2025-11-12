@@ -7,7 +7,8 @@ public class q01 {
         int second;
 
         Time() {
-            return (System.currentTimeMillis())
+            long currentMillis = System.currentTimeMillis();
+            setTime(currentMillis);
         }
 
         Time(int hour, int minute, int second) {
@@ -20,7 +21,7 @@ public class q01 {
             setTime(elapsedTime);
         }
 
-        setTime(long elapseTime) {
+        void setTime(long elapseTime) {
             long totalSeconds = elapseTime / 1000;
             second = (int)(totalSeconds % 60);
 
