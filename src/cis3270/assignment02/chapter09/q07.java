@@ -19,7 +19,7 @@ public class q07 {
         private double annualInterestRate = 0;
         private Date dateCreated = new Date();
 
-        Account() {
+        public Account() {
         }
 
         public Account(int newID, double initialBalance) {
@@ -43,19 +43,19 @@ public class q07 {
             balance = newBalance;
         }
 
-        double getAnnualInterestRate() {
+        public double getAnnualInterestRate() {
             return annualInterestRate * 100;
         }
 
-        void setAnnualInterestRate(double newAIR) {
+        public void setAnnualInterestRate(double newAIR) {
             annualInterestRate = newAIR / 100;
         }
 
-        Date getDateCreated() {
+        public Date getDateCreated() {
             return dateCreated;
         }
 
-        double getMonthlyInterest() {
+        public double getMonthlyInterest() {
             return (balance * (annualInterestRate / 12));
         }
 
