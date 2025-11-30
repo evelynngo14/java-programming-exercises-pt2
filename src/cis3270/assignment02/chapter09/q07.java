@@ -35,11 +35,11 @@ public class q07 {
             id = newID;
         }
 
-        double getBalance() {
+        public double getBalance() {
             return balance;
         }
 
-        void setBalance(double newBalance) {
+        public void setBalance(double newBalance) {
             balance = newBalance;
         }
 
